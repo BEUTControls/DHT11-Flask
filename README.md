@@ -19,6 +19,16 @@ Create a new file.
 
 ```sudo nano index.html```
 
-Copy the contents from 
+Copy the contents from index.html and paste into ssh by right clicking in the session.
 
+Now start dht11flask.py
 
+```sudo python dht11flask.py```
+
+Navigate to IE of Chrome and type.
+
+```http:\\YOUR_RPI_IP_ADDRESS:8008```
+
+You should now see a nicely formatted temperature and humidity display.
+
+Next project will be to get multiple Rpi/DHT sensors to read on a single webpage.
